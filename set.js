@@ -8,14 +8,14 @@ const DATABASE_URL = process.env.DATABASE_URL === undefined
     ? databasePath
     : process.env.DATABASE_URL;
 module.exports = { session: process.env.SESSION_ID || 'zokk',
-    PREFIXE: process.env.PREFIX || "+",
+    PREFIXE: process.env.PREFIX || ".",
     OWNER_NAME: process.env.OWNER_NAME || "yessertech",
-    NUMERO_OWNER : process.env.NUMERO_OWNER || "255621995482",              
+    NUMERO_OWNER : process.env.NUMERO_OWNER || "94771323434",              
     AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "non",
     AUTO_DOWNLOAD_STATUS: process.env.AUTO_DOWNLOAD_STATUS || 'non',
     BOT : process.env.BOT_NAME || 'Yesser Md ',
     URL : process.env.BOT_MENU_LINKS || 'https://telegra.ph/file/37882de26f9ffc60043ef.jpg',
-    MODE: process.env.PUBLIC_MODE || "no",
+    MODE: process.env.PUBLIC_MODE || "yes",
     PM_PERMIT: process.env.PM_PERMIT || 'no',
     HEROKU_APP_NAME : process.env.HEROKU_APP_NAME,
     HEROKU_APY_KEY : process.env.HEROKU_APY_KEY ,
